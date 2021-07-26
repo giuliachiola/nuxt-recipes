@@ -1,4 +1,4 @@
-# test-nuxgt
+# Recipes nuxt
 
 > Nuxt.js project
 
