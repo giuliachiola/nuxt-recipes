@@ -1,22 +1,48 @@
-# Recipes nuxt
+# Title
 
-> Nuxt.js project
+Description
 
-## Build Setup
+| \                | \                                                               |
+|------------------|-----------------------------------------------------------------|
+| Deploy status    | \                                                               |
+| Deploy preview   | \                                                               |
+| Project typology | Step by step from tutorial (I do not remember _which_ tutorial) |
 
-``` bash
+![project preview](docs/project-preview.png)
+
+## 🔥 Tech stack
+
+| Purpose               | Technology   |
+|:----------------------|:-------------|
+| Templating            | VueJS        |
+| Styling               | SCSS + BEMIT |
+| Documentation         | Markdown     |
+| Server Side Rendering | NuxtJS       |
+
+## 🌊 Run development mode
+
+```shell
 # install dependencies
-$ npm install # Or yarn install
+npm i
 
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm start
-
-# generate static project
-$ npm run generate
+# serve with hot reload at localhost:8080
+npm run dev
 ```
 
-For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
+## 🧳 Build setup
+
+```shell
+# build for production and launch server
+npm run build
+npm start
+
+# generate static project
+npm run generate
+```
+
+### 🌿 Branches
+
+| Branch name | Use        |
+|:------------|:-----------|
+| `main`      | production |
+
